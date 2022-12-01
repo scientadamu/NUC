@@ -1,0 +1,70 @@
+.sidebar{
+    position: absolute;
+    top: 0px;
+    width: 5rem;
+    height: 128%;
+    background: #1B3A1B;
+    box-shadow: 0px 0px 5px #E5E9F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-top: 3rem;
+}
+
+.menueContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 7rem;
+    width: 40px;
+    height: 350px;
+    /* background: black; */
+    }
+
+    .add{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        color: black;
+        font-size: 35px;
+       font-weight: 600;
+        margin-top: 5rem;
+        background: #29CB97;
+        border-radius: 20px;
+        }
+    .menuIcon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        /* background-color: red; */
+        border-bottom: 2px solid white;
+    }
+
+    .menuIcon:hover{
+       width: 60px;
+       height: 50px;
+        background:  linear-gradient(180deg, #A6CE34 0%, #A6CE34 100%);
+        border-bottom: 2px solid white;
+        cursor: pointer;
+    }
+        
+    /* Menue Icons */
+    .menuIcons{
+        font-size: 30px;
+    }
+    .menuIcons :hover{
+        color: #29CB97;
+        background: red;
+        cursor: pointer;
+    }
