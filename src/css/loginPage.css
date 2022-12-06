@@ -1,0 +1,141 @@
+.loginPage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.OtpPage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.forgetPassword {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.ForgetComponent {
+    background: white;
+    width: 50%;
+    height: 100%;
+}
+
+.LoginComponent {
+    background: white;
+    width: 50%;
+    height: 100%;
+}
+
+.sliderComponent {
+    background: #0A770C;
+    width: 50%;
+    height: 100%
+}
+
+.loginHeader {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    width: 50%;
+    height: 56px;
+    background: #FFFFFF;
+    border: 1px solid rgba(197, 194, 194, 0.8);
+    margin: 0;
+
+}
+
+.SPESSE {
+
+    font-family: 'Colfax';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A6CE34;
+}
+
+.Platform {
+
+    font-family: 'Colfax';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #706E6E;
+}
+
+.headerLogo {
+    margin-left: 20px;
+}
+
+
+
+
+/* Slider Css */
+
+.sliderComponent {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slideImages {
+    position: relative;
+
+    width: 373px;
+    height: 350px;
+    /* background-color: red; */
+}
+
+.slideTitle {
+    margin-top: 4rem;
+    width: 170px;
+    height: 24px;
+    font-family: 'Colfax';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.slideDetail {
+    width: 45%;
+    height: 43px;
+    font-family: 'Colfax';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.otpInput {
+    color: #0A770C;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 2px;
+    background: red;
+    border: 1px solid #0A770C;
+
+    border-radius: 5px;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+}
+
+.otp-group {
+    display: flex;
+    width: 90%;
+    height: 70px;
+    justify-content: space-between;
+    align-items:baseline;
+}

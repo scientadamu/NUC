@@ -1,6 +1,7 @@
-import Login from './pages/login'
-import Otp from './pages/otp'
-import Dashbord from './pages/dashbord'
+import LoginPage from './pages/login'
+import OtpPage from './pages/otp'
+import ForgetPassword from './pages/forgotPassword'
+import InvalidPage from './pages/invalidPage'
 
 import './App.css';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -11,19 +12,19 @@ function App() {
       <div className='App'>
           <Switch>
           <Route exact path="/" >
-            <Login />
+            <LoginPage />
+          </Route>
+          
+          <Route path="/otp" >
+            <OtpPage />
           </Route>
 
-          <Route  path="/otp" element="./pages/otp">
-             <Otp />
+          <Route path="/passRest" >
+            <ForgetPassword />
           </Route>
 
-          <Route  path="/login" element="./pages/otp">
-             <Login />
-          </Route>
-
-          <Route path="/dashboard" >
-              <Dashbord />
+          <Route path="#" >
+            <InvalidPage />
           </Route>
 
           </Switch>
