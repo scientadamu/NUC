@@ -18,7 +18,7 @@ function LoginComponent() {
             <div className="wrap-login100 p-0">
               <div className="card-body">
                 <form className="login100-form validate-form">
-                  <span className="login100-form-title">
+                  <span className="login100-form-title" >
                     Login
                   </span>
                   <div className="wrap-input100 validate-input" data-bs-validate="Valid email is required: ex@abc.xyz">
@@ -38,11 +38,9 @@ function LoginComponent() {
                   <div className="text-end pt-1">
                     <p className="mb-0"><a href="../passRest" className="text-primary ms-1">Forgot Password?</a></p>
                   </div>
-                  <div className="container-login100-form-btn">
-                    <a href="../otp" className="login100-form-btn btn-primary">
-                      Login
-                    </a>
-                  </div>
+                    <div className="container-login100-form-btn" >
+                      <a href="../otp"  className="login100-form-btn btn-green" >Login</a>
+                    </div>
                   <div className="text-center pt-3">
                     <p className="text-dark mb-0">Not a member?<a href="register.html" className="text-primary ms-1">Create an Account</a></p>
                   </div>

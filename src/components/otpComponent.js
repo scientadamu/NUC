@@ -36,9 +36,9 @@ function ForgetPasswordComponent() {
                             <input class="otpInput" type="text" oninput='digitValidate(this)' onkeyup='tabChange(4)' maxlength='1' />
                             <input class="otpInput" type="text" oninput='digitValidate(this)' onkeyup='tabChange(5)' maxlength='1' />
                             </div>
-                              <div className="submit">
-                                <a className="btn btn-primary d-grid" href="index.html">Submit</a>
-                              </div>
+                            <div className="container-login100-form-btn" >
+                               <a href="../dashboard"  className="login100-form-btn btn-green" >Submit</a>
+                             </div>
                               <div className="text-center mt-4">
                                 <p className="text-dark mb-0">Forgot It?<a className="text-primary ms-1" href="#">Send me Back</a></p>
                               </div>

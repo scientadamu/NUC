@@ -4,24 +4,6 @@
     height: 100vh;
 }
 
-.OtpPage {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-}
-
-.forgetPassword {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-}
-
-.ForgetComponent {
-    background: white;
-    width: 50%;
-    height: 100%;
-}
-
 .LoginComponent {
     background: white;
     width: 50%;
@@ -49,9 +31,10 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
-    color: #A6CE34;
+    color: #0A770C;;
 }
 
+.form-btn{background: #0A770C; width: 100%;}
 .Platform {
 
     font-family: 'Colfax';
@@ -64,6 +47,47 @@
 
 .headerLogo {
     margin-left: 20px;
+}
+
+
+/* OTP page styles */
+.OtpPage {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.otpInput {
+    color: #0A770C;
+    width: 25px;
+    height: 40px;
+    text-align: center;
+    margin-right: 2px;
+    border: 1px solid #0A770C;
+
+    border-radius: 5px;
+	font-family: arimo;
+	font-size: 1.2rem;
+	background: #eef2f3;
+}
+
+.otp-group {
+    display: flex;
+    width: 90%;
+    height: 70px;
+    justify-content: space-between;
+    align-items:baseline;
+}
+
+.forgetPassword {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.ForgetComponent {
+    background: white;
+    width: 50%;
+    height: 100%;
 }
 
 
@@ -125,25 +149,3 @@
     color: #FFFFFF;
 }
 
-.otpInput {
-    color: #0A770C;
-    width: 25px;
-    height: 40px;
-    text-align: center;
-    margin-right: 2px;
-    /* background: red; */
-    border: 1px solid #0A770C;
-
-    border-radius: 5px;
-	font-family: arimo;
-	font-size: 1.2rem;
-	background: #eef2f3;
-}
-
-.otp-group {
-    display: flex;
-    width: 90%;
-    height: 70px;
-    justify-content: space-between;
-    align-items:baseline;
-}

@@ -1,19 +1,20 @@
 import '../css/dashboard.css'
 import DashboardSideBar from '../components/DashboardSideBar'
+import DashboardNav from '../components/DashboardNav'
+import DashboardFooter from '../components/dashboardFooter'
+
 const Dashboard =()=>{
       return (
         <div class="ltr app sidebar-mini">
         <div className="page">
           <div className="page-main">
 
-            {/* app-Header */}
-           
-            {/* app-Header */}
            
 
-            {/*APP-SIDEBAR*/}
+            {/*Dashboard Side Bar*/}
               <DashboardSideBar />
-            {/*/APP-SIDEBAR*/}
+            {/*Dashboard Side Bar*/}
+
             {/*app-content open*/}
             <div className="app-content main-content mt-0">
               <div className="side-app">
@@ -21,10 +22,9 @@ const Dashboard =()=>{
                 <div className="main-container container-fluid">
                  
                    {/* Dashboard-Header */}
-                   {/* Dashboard-nav */}
-                  <div className="page-header" id='dash'>
-                  {/* Dashboard-nav */}
-                  </div>
+            {/* Dashboard-nav */}
+              <DashboardNav />
+            {/* Dashboard-nav */}
 
                   <div className="page-header">
                     <div>
@@ -192,95 +192,7 @@ const Dashboard =()=>{
                             </div>
                           </div>
                         </div>
-                        <div className="col-xl-12 col-lg-12 col-md-6 col-sm-12">
-                          <div className="card overflow-hidden">
-                            <div className="card-header border-bottom">
-                              <h4 className="card-title fw-semibold">Latest Transactions</h4>
-                              <a href="#" className="ms-auto">View All</a>
-                            </div>
-                            <div className="card-body p-0 customers mt-1">
-                              <div className="list-group py-1">
-                                <a href="javascript:void(0);" className="border-0">
-                                  <div className="list-group-item border-0">
-                                    <div className="media mt-0 align-items-center">
-                                      <div className="transaction-icon"><i className="fe fe-chevrons-right" />
-                                      </div>
-                                      <div className="media-body">
-                                        <div className="d-flex align-items-center">
-                                          <div className="mt-0">
-                                            <h5 className="mb-1 fs-13 fw-normal text-dark">To Bel Bcron Bank<span className="fs-13 fw-semibold ms-1">Savings Section</span></h5>
-                                            <p className="mb-0 fs-12 text-muted">Transfer 4.53pm</p>
-                                          </div>
-                                          <span className="ms-auto fs-13">
-                                            <span className="float-end text-dark">-$2,543</span>
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                                <a href="javascript:void(0);" className="border-0">
-                                  <div className="list-group-item border-0">
-                                    <div className="media mt-0 align-items-center">
-                                      <div className="transaction-icon">
-                                        <i className="fe fe-briefcase" />
-                                      </div>
-                                      <div className="media-body">
-                                        <div className="d-flex align-items-center">
-                                          <div className="mt-0">
-                                            <h5 className="mb-1 fs-13 fw-normal text-dark">Payment For <span className="fs-13 fw-semibold ms-1">Day Job</span></h5>
-                                            <p className="mb-0 fs-12 text-muted">Received 2.45pm</p>
-                                          </div>
-                                          <span className="ms-auto fs-13">
-                                            <span className="float-end text-dark">+$32,543</span>
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                                <a href="javascript:void(0);" className="border-0">
-                                  <div className="list-group-item border-0">
-                                    <div className="media mt-0 align-items-center">
-                                      <div className="transaction-icon"><i className="fe fe-dollar-sign" />
-                                      </div>
-                                      <div className="media-body">
-                                        <div className="d-flex align-items-center">
-                                          <div className="mt-0">
-                                            <h5 className="mb-1 fs-13 fw-normal text-dark">Bought items from<span className="fs-13 fw-semibold ms-1">Ecommerce site</span></h5>
-                                            <p className="mb-0 fs-12 text-muted">Payment 8.00am</p>
-                                          </div>
-                                          <span className="ms-auto fs-13">
-                                            <span className="float-end text-dark">-$256</span>
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                                <a href="javascript:void(0);" className="border-0">
-                                  <div className="list-group-item border-0">
-                                    <div className="media mt-0 align-items-center">
-                                      <div className="transaction-icon"><i className="fe fe-file-text" />
-                                      </div>
-                                      <div className="media-body">
-                                        <div className="d-flex align-items-center">
-                                          <div className="mt-0">
-                                            <h5 className="mb-1 fs-13 fw-normal text-dark">Paid Monthly Expenses<span className="fs-13 fw-semibold ms-1">Bills &amp; Loans</span></h5>
-                                            <p className="mb-0 fs-12 text-muted">Payment 6.43am</p>
-                                          </div>
-                                          <span className="ms-auto fs-13">
-                                            <span className="float-end text-dark">-$1,298</span>
-                                          </span>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                     
                       </div>
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-xl-8">
@@ -517,241 +429,7 @@ const Dashboard =()=>{
                   {/* ROW-3 END */}
                   {/* ROW-4 */}
                   <div className="row">
-                    <div className="col-12 col-sm-12">
-                      <div className="card product-sales-main">
-                        <div className="card-header border-bottom">
-                          <h3 className="card-title mb-0">Task List</h3>
-                        </div>
-                        <div className="card-body">
-                          <div className="table-responsive">
-                            <table id="data-table" className="table text-nowrap mb-0 table-bordered">
-                              <thead className="table-head">
-                                <tr>
-                                  <th className="bg-transparent border-bottom-0 wp-15">Assigned To</th>
-                                  <th className="bg-transparent border-bottom-0">Task</th>
-                                  <th className="bg-transparent border-bottom-0">Project</th>
-                                  <th className="bg-transparent border-bottom-0">Due Date</th>
-                                  <th className="bg-transparent border-bottom-0">Status</th>
-                                  <th className="bg-transparent border-bottom-0 no-btn">Action</th>
-                                </tr>
-                              </thead>
-                              <tbody className="table-body">
-                                <tr>
-                                  <td>
-                                    <div className="d-flex align-items-center">
-                                      <span className="data-image avatar avatar-md rounded-circle" style={{backgroundImage: 'url(../assets/images/users/11.jpg)'}} />
-                                      <div className="user-details ms-2">
-                                        <h6 className="mb-0">Skyler Hilda</h6>
-                                        <span className="text-muted fs-12">member@spruko.com</span>
-                                      </div>
-                                    </div>
-                                  </td>
-                                  <td className="text-muted fs-14 fw-semibold"><a href="#" className="text-dark" data-bs-target="#Vertically" data-bs-toggle="modal">Sit sed takimata sanctus invidunt</a></td>
-                                  <td className="text-muted fs-13"><a href="project-details.html" className="text-dark">Noa Dashboard UI</a></td>
-                                  <td className="text-danger fs-14 fw-semibold">31 Oct 21</td>
-                                  <td>
-                                    <div className="form-group mb-0">
-                                      <ul>
-                                        <li className="select-status">
-                                          <select className="form-control select2-status-search" data-placeholder="Select Status">
-                                            <option value="IP" selected>In Progress</option>
-                                            <option value="OH">On Hold</option>
-                                            <option value="CP">Completed</option>
-                                          </select>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <div className="d-flex align-items-stretch">
-                                      <a className="btn btn-sm btn-outline-primary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Mark As Completed">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height={20} width={16} viewBox="0 0 24 24"><path d="M15.8085327,8.6464844l-5.6464233,5.6464844l-2.4707031-2.4697266c-0.0023804-0.0023804-0.0047607-0.0047607-0.0072021-0.0071411c-0.1972046-0.1932373-0.5137329-0.1900635-0.7069702,0.0071411c-0.1932983,0.1972656-0.1900635,0.5137939,0.0071411,0.7070312l2.8242188,2.8232422C9.9022217,15.4474487,10.02948,15.5001831,10.1621094,15.5c0.1326294,0.0001221,0.2598267-0.0525513,0.3534546-0.1464844l6-6c0.0023804-0.0023804,0.0047607-0.0046997,0.0071411-0.0071411c0.1932373-0.1972046,0.1900635-0.5137329-0.0071411-0.7069702C16.3183594,8.446106,16.0018311,8.4493408,15.8085327,8.6464844z M12,2C6.4771729,2,2,6.4771729,2,12s4.4771729,10,10,10c5.5201416-0.0064697,9.9935303-4.4798584,10-10C22,6.4771729,17.5228271,2,12,2z M12,21c-4.9705811,0-9-4.0294189-9-9s4.0294189-9,9-9c4.9683228,0.0054321,8.9945679,4.0316772,9,9C21,16.9705811,16.9705811,21,12,21z" /></svg>
-                                      </a>
-                                      <a className="btn btn-sm btn-outline-secondary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Delete">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height={20} viewBox="0 0 24 24" width={16}><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z" /></svg>
-                                      </a>
-                                      <a href="#" className="border br-5 px-2 py-1 d-flex align-items-center justify-content-center" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fe fe-more-vertical" /></a>
-                                      <div className="dropdown-menu dropdown-menu-start">
-                                        <a className="dropdown-item" href="#"><i className="fe fe-edit-2 me-2" /> Edit</a>
-                                        <a className="dropdown-item" href="#"><i className="fe fe-info me-2" /> Info</a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div className="d-flex align-items-center">
-                                      <span className="data-image avatar avatar-md rounded-circle" style={{backgroundImage: 'url(../assets/images/users/12.jpg)'}} />
-                                      <div className="user-details ms-2">
-                                        <h6 className="mb-0">Daniel Obrien</h6>
-                                        <span className="text-muted fs-12">member@spruko.com</span>
-                                      </div>
-                                    </div>
-                                  </td>
-                                  <td className="text-muted fs-14 fw-semibold"><a href="#" className="text-dark" data-bs-target="#Vertically" data-bs-toggle="modal">Diam lorem dolor no lorem.</a></td>
-                                  <td className="text-muted fs-13"><a href="project-details.html" className="text-dark">Noa Dashboard UI</a></td>
-                                  <td className="text-danger fs-14 fw-semibold">01 Nov 21</td>
-                                  <td>
-                                    <div className="form-group mb-0">
-                                      <ul>
-                                        <li className="select-status">
-                                          <select className="form-control select2-status-search" data-placeholder="Select Status">
-                                            <option value="IP">In Progress</option>
-                                            <option value="OH" selected>On Hold</option>
-                                            <option value="CP">Completed</option>
-                                          </select>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <div className="d-flex align-items-stretch">
-                                      <a className="btn btn-sm btn-outline-primary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Mark As Completed">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height={20} width={16} viewBox="0 0 24 24"><path d="M15.8085327,8.6464844l-5.6464233,5.6464844l-2.4707031-2.4697266c-0.0023804-0.0023804-0.0047607-0.0047607-0.0072021-0.0071411c-0.1972046-0.1932373-0.5137329-0.1900635-0.7069702,0.0071411c-0.1932983,0.1972656-0.1900635,0.5137939,0.0071411,0.7070312l2.8242188,2.8232422C9.9022217,15.4474487,10.02948,15.5001831,10.1621094,15.5c0.1326294,0.0001221,0.2598267-0.0525513,0.3534546-0.1464844l6-6c0.0023804-0.0023804,0.0047607-0.0046997,0.0071411-0.0071411c0.1932373-0.1972046,0.1900635-0.5137329-0.0071411-0.7069702C16.3183594,8.446106,16.0018311,8.4493408,15.8085327,8.6464844z M12,2C6.4771729,2,2,6.4771729,2,12s4.4771729,10,10,10c5.5201416-0.0064697,9.9935303-4.4798584,10-10C22,6.4771729,17.5228271,2,12,2z M12,21c-4.9705811,0-9-4.0294189-9-9s4.0294189-9,9-9c4.9683228,0.0054321,8.9945679,4.0316772,9,9C21,16.9705811,16.9705811,21,12,21z" /></svg>
-                                      </a>
-                                      <a className="btn btn-sm btn-outline-secondary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Delete">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height={20} viewBox="0 0 24 24" width={16}><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z" /></svg>
-                                      </a>
-                                      <a href="#" className="border br-5 px-2 py-1 d-flex align-items-center justify-content-center" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fe fe-more-vertical" /></a>
-                                      <div className="dropdown-menu dropdown-menu-start">
-                                        <a className="dropdown-item" href="#"><i className="fe fe-edit-2 me-2" /> Edit</a>
-                                        <a className="dropdown-item" href="#"><i className="fe fe-info me-2" /> Info</a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div className="d-flex align-items-center">
-                                      <span className="data-image avatar avatar-md rounded-circle" style={{backgroundImage: 'url(../assets/images/users/13.jpg)'}} />
-                                      <div className="user-details ms-2">
-                                        <h6 className="mb-0">William Turner</h6>
-                                        <span className="text-muted fs-12">member@spruko.com</span>
-                                      </div>
-                                    </div>
-                                  </td>
-                                  <td className="text-muted fs-14 fw-semibold"><a href="#" className="text-dark" data-bs-target="#Vertically" data-bs-toggle="modal">Amet clita sea ut dolor consetetur, elitr.</a></td>
-                                  <td className="text-muted fs-13"><a href="project-details.html" className="text-dark">Noa Dashboard UI</a></td>
-                                  <td className="text-danger fs-14 fw-semibold">08 Nov 21</td>
-                                  <td>
-                                    <div className="form-group mb-0">
-                                      <ul>
-                                        <li className="select-status">
-                                          <select className="form-control select2-status-search" data-placeholder="Select Status">
-                                            <option value="IP">In Progress</option>
-                                            <option value="OH" selected>On Hold</option>
-                                            <option value="CP">Completed</option>
-                                          </select>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <div className="d-flex align-items-stretch">
-                                      <a className="btn btn-sm btn-outline-primary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Mark As Completed">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height={20} width={16} viewBox="0 0 24 24"><path d="M15.8085327,8.6464844l-5.6464233,5.6464844l-2.4707031-2.4697266c-0.0023804-0.0023804-0.0047607-0.0047607-0.0072021-0.0071411c-0.1972046-0.1932373-0.5137329-0.1900635-0.7069702,0.0071411c-0.1932983,0.1972656-0.1900635,0.5137939,0.0071411,0.7070312l2.8242188,2.8232422C9.9022217,15.4474487,10.02948,15.5001831,10.1621094,15.5c0.1326294,0.0001221,0.2598267-0.0525513,0.3534546-0.1464844l6-6c0.0023804-0.0023804,0.0047607-0.0046997,0.0071411-0.0071411c0.1932373-0.1972046,0.1900635-0.5137329-0.0071411-0.7069702C16.3183594,8.446106,16.0018311,8.4493408,15.8085327,8.6464844z M12,2C6.4771729,2,2,6.4771729,2,12s4.4771729,10,10,10c5.5201416-0.0064697,9.9935303-4.4798584,10-10C22,6.4771729,17.5228271,2,12,2z M12,21c-4.9705811,0-9-4.0294189-9-9s4.0294189-9,9-9c4.9683228,0.0054321,8.9945679,4.0316772,9,9C21,16.9705811,16.9705811,21,12,21z" /></svg>
-                                      </a>
-                                      <a className="btn btn-sm btn-outline-secondary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Delete">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height={20} viewBox="0 0 24 24" width={16}><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z" /></svg>
-                                      </a>
-                                      <a href="#" className="border br-5 px-2 py-1 d-flex align-items-center justify-content-center" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fe fe-more-vertical" /></a>
-                                      <div className="dropdown-menu dropdown-menu-start">
-                                        <a className="dropdown-item" href="#"><i className="fe fe-edit-2 me-2" /> Edit</a>
-                                        <a className="dropdown-item" href="#"><i className="fe fe-info me-2" /> Info</a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div className="d-flex align-items-center">
-                                      <span className="data-image avatar avatar-md rounded-circle" style={{backgroundImage: 'url(../assets/images/users/4.jpg)'}} />
-                                      <div className="user-details ms-2">
-                                        <h6 className="mb-0">Olena Tyrell</h6>
-                                        <span className="text-muted fs-12">member@spruko.com</span>
-                                      </div>
-                                    </div>
-                                  </td>
-                                  <td className="text-muted fs-14 fw-semibold"><a href="#" className="text-dark" data-bs-target="#Vertically" data-bs-toggle="modal">Est sea erat at kasd.</a></td>
-                                  <td className="text-muted fs-13"><a href="project-details.html" className="text-dark">Noa Dashboard UI</a></td>
-                                  <td className="text-danger fs-14 fw-semibold">04 Nov 21</td>
-                                  <td>
-                                    <div className="form-group mb-0">
-                                      <ul>
-                                        <li className="select-status">
-                                          <select className="form-control select2-status-search" data-placeholder="Select Status">
-                                            <option value="IP" selected>In Progress</option>
-                                            <option value="OH">On Hold</option>
-                                            <option value="CP">Completed</option>
-                                          </select>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <div className="d-flex align-items-stretch">
-                                      <a className="btn btn-sm btn-outline-primary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Mark As Completed">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height={20} width={16} viewBox="0 0 24 24"><path d="M15.8085327,8.6464844l-5.6464233,5.6464844l-2.4707031-2.4697266c-0.0023804-0.0023804-0.0047607-0.0047607-0.0072021-0.0071411c-0.1972046-0.1932373-0.5137329-0.1900635-0.7069702,0.0071411c-0.1932983,0.1972656-0.1900635,0.5137939,0.0071411,0.7070312l2.8242188,2.8232422C9.9022217,15.4474487,10.02948,15.5001831,10.1621094,15.5c0.1326294,0.0001221,0.2598267-0.0525513,0.3534546-0.1464844l6-6c0.0023804-0.0023804,0.0047607-0.0046997,0.0071411-0.0071411c0.1932373-0.1972046,0.1900635-0.5137329-0.0071411-0.7069702C16.3183594,8.446106,16.0018311,8.4493408,15.8085327,8.6464844z M12,2C6.4771729,2,2,6.4771729,2,12s4.4771729,10,10,10c5.5201416-0.0064697,9.9935303-4.4798584,10-10C22,6.4771729,17.5228271,2,12,2z M12,21c-4.9705811,0-9-4.0294189-9-9s4.0294189-9,9-9c4.9683228,0.0054321,8.9945679,4.0316772,9,9C21,16.9705811,16.9705811,21,12,21z" /></svg>
-                                      </a>
-                                      <a className="btn btn-sm btn-outline-secondary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Delete">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height={20} viewBox="0 0 24 24" width={16}><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z" /></svg>
-                                      </a>
-                                      <a href="#" className="border br-5 px-2 py-1 d-flex align-items-center justify-content-center" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fe fe-more-vertical" /></a>
-                                      <div className="dropdown-menu dropdown-menu-start">
-                                        <a className="dropdown-item" href="#"><i className="fe fe-edit-2 me-2" /> Edit</a>
-                                        <a className="dropdown-item" href="#"><i className="fe fe-info me-2" /> Info</a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <div className="d-flex align-items-center">
-                                      <span className="data-image avatar avatar-md rounded-circle" style={{backgroundImage: 'url(../assets/images/users/5.jpg)'}} />
-                                      <div className="user-details ms-2">
-                                        <h6 className="mb-0">Emilie Benett</h6>
-                                        <span className="text-muted fs-12">member@spruko.com</span>
-                                      </div>
-                                    </div>
-                                  </td>
-                                  <td className="text-muted fs-14 fw-semibold"><a href="#" className="text-dark" data-bs-target="#Vertically" data-bs-toggle="modal">Rebum gubergren at kasd takimata clita.</a></td>
-                                  <td className="text-muted fs-13"><a href="project-details.html" className="text-dark">Noa Dashboard UI</a></td>
-                                  <td className="text-danger fs-14 fw-semibold">29 Oct 21</td>
-                                  <td>
-                                    <div className="form-group mb-0">
-                                      <ul>
-                                        <li className="select-status">
-                                          <select className="form-control select2-status-search" data-placeholder="Select Status">
-                                            <option value="IP">In Progress</option>
-                                            <option value="OH">On Hold</option>
-                                            <option value="CP" selected>Completed</option>
-                                          </select>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </td>
-                                  <td>
-                                    <div className="d-flex align-items-stretch">
-                                      <a className="btn btn-sm btn-outline-primary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Mark As Completed">
-                                        <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" height={20} width={16} viewBox="0 0 24 24"><path d="M15.8085327,8.6464844l-5.6464233,5.6464844l-2.4707031-2.4697266c-0.0023804-0.0023804-0.0047607-0.0047607-0.0072021-0.0071411c-0.1972046-0.1932373-0.5137329-0.1900635-0.7069702,0.0071411c-0.1932983,0.1972656-0.1900635,0.5137939,0.0071411,0.7070312l2.8242188,2.8232422C9.9022217,15.4474487,10.02948,15.5001831,10.1621094,15.5c0.1326294,0.0001221,0.2598267-0.0525513,0.3534546-0.1464844l6-6c0.0023804-0.0023804,0.0047607-0.0046997,0.0071411-0.0071411c0.1932373-0.1972046,0.1900635-0.5137329-0.0071411-0.7069702C16.3183594,8.446106,16.0018311,8.4493408,15.8085327,8.6464844z M12,2C6.4771729,2,2,6.4771729,2,12s4.4771729,10,10,10c5.5201416-0.0064697,9.9935303-4.4798584,10-10C22,6.4771729,17.5228271,2,12,2z M12,21c-4.9705811,0-9-4.0294189-9-9s4.0294189-9,9-9c4.9683228,0.0054321,8.9945679,4.0316772,9,9C21,16.9705811,16.9705811,21,12,21z" /></svg>
-                                      </a>
-                                      <a className="btn btn-sm btn-outline-secondary border me-2" data-bs-toggle="tooltip" data-bs-original-title="Delete">
-                                        <svg xmlns="http://www.w3.org/2000/svg" height={20} viewBox="0 0 24 24" width={16}><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM8 9h8v10H8V9zm7.5-5l-1-1h-5l-1 1H5v2h14V4h-3.5z" /></svg>
-                                      </a>
-                                      <a href="#" className="border br-5 px-2 py-1 d-flex align-items-center justify-content-center" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="fe fe-more-vertical" /></a>
-                                      <div className="dropdown-menu dropdown-menu-start">
-                                        <a className="dropdown-item" href="#"><i className="fe fe-edit-2 me-2" /> Edit</a>
-                                        <a className="dropdown-item" href="#"><i className="fe fe-info me-2" /> Info</a>
-                                      </div>
-                                    </div>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
-                        </div>
-                      </div>
-                    </div>{/* COL END */}
+                 {/* COL END */}
                   </div>
                   {/* ROW-4 END */}
                 </div>
@@ -1193,21 +871,11 @@ const Dashboard =()=>{
             </div>
           </div>
           {/* /Country-selector modal*/}
-          {/* FOOTER */}
-          <footer className="footer">
-            <div className="container">
-              <div className="row align-items-center flex-row-reverse">
-                <div className="col-md-12 col-sm-12 text-center">
-                  Copyright © 2022 <a href="#">Noa</a>. Designed with <span className="fa fa-heart text-danger" /> by <a href="#"> Spruko </a> All rights reserved
-                </div>
-              </div>
-            </div>
-          </footer>
-          {/* FOOTER END */}
+      {/* FOOTER */}
+        <DashboardFooter />
+      {/* FOOTER END */}
         </div>
-        {/* BACK-TO-TOP */}
-        <a href="#top" id="back-to-top"><i className="fa fa-long-arrow-up" /></a>
-      </div>
+        </div>
             );
           }
      

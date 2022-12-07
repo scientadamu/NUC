@@ -1,162 +1,7 @@
 @charset "UTF-8";
-/*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project        :   Noa – Bootstrap  Admin & Dashboard Template
-Copyright      :   Spruko Technologies Private Limited 
-Author         :   Spruko
-Author URL     :   https://themeforest.net/user/spruko
-Support	       :   support@spruko.com
-License        :   Licensed under ThemeForest License
-
--------------------------------------------------------------------*/
-/*Gradient variables*/
-/*Background variables*/
-/*gray variables*/
-/*white variables*/
-/*black variables*/
-/*shadow variables*/
-/*Dark Theme Variables*/
-/*Transparent variables*/
-/*
---- accordion
---- alert
---- avatars
---- badges
---- blackquote
---- bootstrap-styles
---- breadcrumb
---- button
---- buttons
---- cards
---- carousel
---- dropdown
---- forms
---- grid
---- input-group
---- modal
---- navigation
---- opacity
---- pagination
---- panel
---- popover
---- progress
---- tables
---- tags
---- thumbnail
---- tooltip
---- components-col
---- count-down
---- custom-forms
---- custom-styles
---- font
---- gallery
---- highlight
---- labels
---- landing
---- list-group
---- media
---- navbar
---- pricing
---- rating
---- tabs-menu
---- timeline
---- dark-style
---- footer
---- header
---- horizontal-menu
---- icons-list
---- item-styles
---- loaders
---- rtl
---- datepicker
---- jvector
---- select2
---- select-group
---- selectize
---- accordion
---- amazeui.datetimepicker
---- bootstrap-datepicker
---- bootstrap-editable
---- buttons.bootstrap5
---- classic
---- dataTables.bootstrap
---- demo
---- fancy_fileupload
---- fileupload
---- flipclock
---- fullcalendar
---- gallery
---- inputtags
---- ion.rangeSlider
---- ion.rangeSlider.skinFlat
---- jquery.countdown
---- jquery.growl
---- jquery.simple-dtpicker
---- jquery.timepicker
---- jquerysctipttop
---- leaflet
---- main
---- morris
---- nano.min
---- notifIt
---- nv.d3
---- owl.carousel
---- perfect-scrollbar
---- prism
---- quill.bubble
---- quill.snow
---- responsive.bootstrap5
---- richtext
---- select2.min
---- smart_wizard
---- smart_wizard_theme_arrows
---- smart_wizard_theme_circles
---- smart_wizard_theme_dots
---- star-rating-svg
---- summernote1
---- sweetalert
---- tabs
---- timeline
---- closed-menu
---- hover-submenu
---- hover-submenu-style1
---- sidemenu
---- sidemenu-icontext
---- calender
---- chart
---- chat
---- error-pages
---- form-wizard
---- range
---- ribbon
---- weather-cards
---- widgets
---- alignments
---- background
---- border
---- display
---- float-elements
---- height
---- margin
---- padding
---- position
---- typography
---- width
-*/
-/* ######## FONT ######## */
-/*-------- Bootstrap Framework -------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-/* ######## BOOTSTRAP ######## */
-/*Gradient variables*/
-/*Background variables*/
-/*gray variables*/
-/*white variables*/
-/*black variables*/
-/*shadow variables*/
-/*Dark Theme Variables*/
-/*Transparent variables*/
+
 :root {
     --primary-bg-color: #8fbd56;
     --primary-bg-hover: #82c035;
@@ -375,12 +220,7 @@ input[type=checkbox] {
     padding: 0;
 }
 
-input[type=date],
-input[type=time],
-input[type=datetime-local],
-input[type=month] {
 
-}
 
 fieldset {
     min-width: 0;
@@ -408,12 +248,7 @@ legend {
 
 [type=search] {
     outline-offset: -2px;
-    -webkit-appearance: none;
-}
-
-[type=search]::-webkit-search-cancel-button,
-[type=search]::-webkit-search-decoration {
-    -webkit-appearance: none;
+   
 }
 
 ::-webkit-file-upload-button {
@@ -25397,7 +25232,7 @@ img {
     background: #fff;
     border-radius: 6px;
     border: 0;
-    box-shadow: 0px 14px 65px 0px #dadee8;
+    box-shadow: 0px 14px 65px 0px;
 }
 
 .landing-page .featured_icon {
@@ -54192,9 +54027,7 @@ a.fc-event:hover {
     /* in addition to being a min-height during natural height, equalizes the heights a little bit */
 }
 
-.fc .fc-daygrid-body-natural {
-    /* can coexist with -unbalanced */
-}
+
 
 .fc .fc-daygrid-body-natural .fc-daygrid-day-events {
     margin-bottom: 1em;
@@ -58348,6 +58181,7 @@ iframe {
     display: block;
     padding-bottom: 30px;
     color: #424344;
+    
 }
 
 /*---------------------------------------------*/
@@ -58431,11 +58265,11 @@ iframe {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 15px;
+   
 }
 
 .login100-form-btn {
     line-height: 1.5;
-    color: #fff;
     width: 100%;
     height: 40px;
     display: -webkit-box;
@@ -58447,6 +58281,7 @@ iframe {
     align-items: center;
     padding: 0 25px;
     border-radius: 5px;
+   
 }
 
 /*------------------------------------------------------------------

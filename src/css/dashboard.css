@@ -1,18 +1,11 @@
-
-option{
-    font-size: 10px;
-    /* background: red; */
-    /* color: white; */
-}
-
-#dash{
+.dashboardNav{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
     margin-top:0px;
     padding-top:0px;
     display: flex;
     flex-direction: row;
     background: white;
     
-}
-#dashboardContent{
-   
 }
