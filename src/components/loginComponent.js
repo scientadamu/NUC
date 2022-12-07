@@ -36,7 +36,7 @@ function LoginComponent() {
                     </span>
                   </div>
                   <div className="text-end pt-1">
-                    <p className="mb-0"><a href="forgot-password.html" className="text-primary ms-1">Forgot Password?</a></p>
+                    <p className="mb-0"><a href="../passRest" className="text-primary ms-1">Forgot Password?</a></p>
                   </div>
                   <div className="container-login100-form-btn">
                     <a href="../otp" className="login100-form-btn btn-primary">

@@ -29,11 +29,20 @@
 }
 
 .sliderComponent {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #0A770C;
     width: 50%;
-    height: 100%
 }
 
+
+.sliderPart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .loginHeader {
     display: flex;
     align-items: center;
@@ -94,7 +103,7 @@
 }
 
 .slideTitle {
-    margin-top: 4rem;
+    margin-top: 1rem;
     width: 170px;
     height: 24px;
     font-family: 'Colfax';
@@ -106,7 +115,7 @@
 }
 
 .slideDetail {
-    width: 45%;
+    width: 60%;
     height: 43px;
     font-family: 'Colfax';
     font-style: normal;
@@ -116,16 +125,14 @@
     text-align: center;
     color: #FFFFFF;
 }
-
 .otpInput {
     color: #0A770C;
-    width: 40px;
+    width: 25px;
     height: 40px;
     text-align: center;
     margin-right: 2px;
-    background: red;
+    /* background: red; */
     border: 1px solid #0A770C;
-
     border-radius: 5px;
 	font-family: arimo;
 	font-size: 1.2rem;

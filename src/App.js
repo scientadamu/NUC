@@ -1,6 +1,7 @@
 import LoginPage from './pages/login'
 import OtpPage from './pages/otp'
 import ForgetPassword from './pages/forgotPassword'
+import Dashboard from './pages/dashboard'
 import InvalidPage from './pages/invalidPage'
 
 import './App.css';
@@ -21,6 +22,10 @@ function App() {
 
           <Route path="/passRest" >
             <ForgetPassword />
+          </Route>
+
+          <Route path="/dashboard" >
+            <Dashboard />
           </Route>
 
           <Route path="#" >
