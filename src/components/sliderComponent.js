@@ -8,7 +8,7 @@ import '../css/loginPage.css'
 const SliderComponent = () => {
     return (
       <div className='sliderComponent'>
-        <div className='sliderPart'>
+        <div className='slider'>
        
         <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
@@ -19,34 +19,34 @@ const SliderComponent = () => {
         <div className="carousel-inner" id='slideContainer'>
           {/* Slide 1 */}
           <div className="carousel-item active">
-            <img src={slide1} alt="slide1" className="bd-placeholder-img" aria-hidden="true" preserveaspectratio="xMidYMid slice" focusable="false" />
-            <rect width="100%" height="100%" fill="#777">
+            <img src={slide1} alt="slide1"  aria-hidden="true" preserveaspectratio="xMidYMid slice" focusable="false" />
+           
               <div className="container">
                 <div className="carousel-caption text-start">
                 </div>
               </div>
-            </rect></div>
+            </div>
           {/* Slide 2 */}
           <div className="carousel-item">
-            <img src={slide2} alt="slide2" />
-            <rect width="100%" height="100%" fill="#777">
+            <img src={slide2} alt="slide2"  />
+            
               <div className="container">
                 <div className="carousel-caption text-end">
                 </div>
               </div>
-            </rect></div>
+            </div>
           {/* Slide 3 */}
           <div className="carousel-item">
-            <img src={slide3} alt="slide3" />
-            <rect width="100%" height="100%" fill="#777">
+            <img src={slide3} alt="slide3"  />
+            
               <div className="container">
                 <div className="carousel-caption text-end">
                 </div>
               </div>
-            </rect></div>
+            </div>
         </div>
         {/* Previous */}
-        <button className="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <button className="carousel-control-prev"  type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true" />
           <span className="visually-hidden">Previous</span>
         </button>

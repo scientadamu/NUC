@@ -20,18 +20,18 @@ background: #0A770C;
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
+  min-width: 350px;
+  min-height: 400px;
   background: #0A770C;
 
 }
 .sliderPart >#myCarousel {margin-top: 15rem;}
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+#myCarousel >.button{
+  margin-top: 200px;
+ 
+ 
+  background: red;
 }
 
 @media (min-width: 768px) {

@@ -22,9 +22,10 @@ const Dashboard =()=>{
                  
                    {/* Dashboard-Header */}
                    {/* Dashboard-nav */}
-                  {/* Dashboard-nav */}
                   <div className="page-header" id='dash'>
+                  {/* Dashboard-nav */}
                   </div>
+
                   <div className="page-header">
                     <div>
                       <h1 className="page-title">Dashboard</h1>
