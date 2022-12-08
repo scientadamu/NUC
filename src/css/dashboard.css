@@ -1,11 +1,69 @@
 .dashboardNav{
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-    margin-top:0px;
-    padding-top:0px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-top: 2px;
     background: white;
-    
+    height: 72px;
+    width: 100%;
 }
+/* dashboard-header */
+#pageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: blue; */
+    max-width: 100%;
+}
+#pageTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    /* background: green; */
+}
+#breadcrumbContainer{
+    display: flex;
+    flex-direction: column;
+     margin-left:25%;
+    align-items:flex-end;
+    justify-content:end;
+    height: 5rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #31394D;
+}
+.userFirstName{
+    height: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #748AA1;
+ 
+}
+.welcomeMsg{
+font-size: 25px;
+line-height: 23px;
+
+}
+#breadcrumbRight{
+   gap:8rem;
+}
+/* dashboard-header */
+
+
+/* Row 1 */
+.col{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #31394D;
+    }
+/* Row 1 */

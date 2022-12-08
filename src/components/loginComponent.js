@@ -22,14 +22,14 @@ function LoginComponent() {
                     Login
                   </span>
                   <div className="wrap-input100 validate-input" data-bs-validate="Valid email is required: ex@abc.xyz">
-                    <input className="input100" type="text" name="email" placeholder="Email" />
+                    <input className="input100" type="text" name="email" placeholder="Email" required/>
                     <span className="focus-input100" />
                     <span className="symbol-input100">
                       <i className="zmdi zmdi-email" aria-hidden="true" />
                     </span>
                   </div>
                   <div className="wrap-input100 validate-input" data-bs-validate="Password is required">
-                    <input className="input100" type="password" name="pass" placeholder="Password" />
+                    <input className="input100" type="password" name="pass" placeholder="Password" required  />
                     <span className="focus-input100" />
                     <span className="symbol-input100">
                       <i className="zmdi zmdi-lock" aria-hidden="true" />
