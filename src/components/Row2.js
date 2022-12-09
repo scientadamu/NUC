@@ -4,7 +4,7 @@ const Row2 = () => {
                     <div className="col-xl-4 col-md-12">
                       <div className="card">
                         <div className="card-header border-bottom">
-                          <h4 className="card-title fw-semibold">Daily Activity</h4>
+                          <h4 className="card-title fw-semibold">Top sales</h4>
                         </div>
                         <div className="card-body pb-0">
                           <ul className="task-list">
@@ -41,7 +41,7 @@ const Row2 = () => {
                       <div className="card overflow-hidden">
                         <div className="card-header border-bottom">
                           <div>
-                            <h3 className="card-title">Timeline</h3>
+                            <h3 className="card-title">Top Cite</h3>
                           </div>
                         </div>
                         <div className="card-body">
@@ -123,7 +123,7 @@ const Row2 = () => {
                     <div className="col-xl-4 col-md-12">
                       <div className="card overflow-hidden">
                         <div className="card-header title-submenu border-bottom">
-                          <h3 className="card-title">To-Do List</h3>
+                          <h3 className="card-title">Active User</h3>
                         </div>
                         <div className="card-body">
                           <div className="todo-container">

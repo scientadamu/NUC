@@ -1,7 +1,7 @@
 const DashboardFooter = () => {
     return (
         <div>
-            <footer className="footer">
+            <footer className="footer" id="footer">
             <div className="container">
               <div className="row align-items-center flex-row-reverse">
                 <div className="col-md-12 col-sm-12 text-center">

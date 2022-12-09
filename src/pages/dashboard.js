@@ -1,6 +1,6 @@
 import '../css/dashboard.css'
 import DashboardSideBar from '../components/DashboardSideBar';
-import DashboardNav from '../components/DashboardNav'
+// import DashboardNav from '../components/DashboardNav'
 import DashboardHeader from '../components/DashboardHeader'
 import Row1 from '../components/Row1'
 import Row2 from '../components/Row2'
@@ -15,16 +15,16 @@ const Dashboard = () => {
         <div className="side-app">
           {/* CONTAINER */}
           <div className="main-container container-fluid">
-            <DashboardNav />      {/* Dashboard-nav */}
+            {/* <DashboardNav />      Dashboard-nav */}
             <DashboardHeader />   {/* Dashboard-Header */}
             <Row1 />               {/*ROW-1 */}
-            {/* <Row2 />              ROW-2 */}
-            {/* <Row3 />              ROW-3 */}
+          <Row2 />                 {/*ROW-2 */}
+            <Row3 />             {/* ROW-3 */}
           </div>
       {/* CONTAINER END */}
         </div>
       </div>
-      <DashboardFooter />{/* FOOTER */}
+      <DashboardFooter />         {/* FOOTER */}
     </div>
   )
 }
