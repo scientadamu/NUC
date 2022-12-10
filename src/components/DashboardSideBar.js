@@ -1,21 +1,22 @@
 // dashboard-Side bar
 import headerLogo from '../images/headerLogo.png'
-const DashboardSideBar =()=>{
+const DashboardSideBar1 =()=>{
     return(
-<div className="sticky">
-              <div className="app-sidebar__overlay" data-bs-toggle="sidebar" />
+<div className="sticky"id='side-bar'>
+              <div className="app-sidebar__overlay" data-bs-toggle="sidebar" >
               <div className="app-sidebar">
-                <div className="side-header">
+              <div className="app-sidebar">
+                <div className="side-header"   >
                   <a className="header-brand1" href="index.html">
                     <img src={headerLogo} alt="logo"/>
                   </a>NUC
                 </div>
-                <div className="main-sidemenu">
+                <div className="main-sidemenu" id='side-bar'>
                   <div className="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width={24} height={24} viewBox="0 0 24 24">
                       <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
                     </svg>
                   </div>
-                  <ul className="side-menu">
+                  <ul className="side-menu" >
                     <li>
                       <h3>Menu</h3>
                     </li>
@@ -61,6 +62,8 @@ const DashboardSideBar =()=>{
                 </div>
               </div>
             </div>
+           </div>
+           </div>
     )
  }
- export default DashboardSideBar;
+ export default DashboardSideBar1;

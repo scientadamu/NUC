@@ -11,8 +11,8 @@ const Dashboard = () => {
   return (
     <div class="ltr app sidebar-mini" id='dashboard-container'>
       <DashboardSideBar />  {/*Dashboard Side Bar*/}
-      <div className="app-content main-content mt-0">
-        <div className="side-app">
+      <div className="app-content main-content mt-0" >
+        <div className="side-app" >
           {/* CONTAINER */}
           <div className="main-container container-fluid">
             {/* <DashboardNav />      Dashboard-nav */}

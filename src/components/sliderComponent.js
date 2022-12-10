@@ -8,7 +8,7 @@ import '../css/loginPage.css'
 const SliderComponent = () => {
     return (
       <div className='sliderComponent'>
-        <div className='slider'>
+        <div className='slider'  >
        
         <div id="myCarousel" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-indicators">
