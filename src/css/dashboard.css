@@ -1,82 +1,126 @@
 /* -----------------------------dashboard-NAV CSS -----------------------------*/
-body{
+body {
     padding: 0;
     margin: 0;
     width: 100%;
     /* background: red; */
 }
-.flex-row{
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-}
-.app-sidebar__toggle{
-    margin: 10px 0 0 30px;
-}
 
-.flex-row-sp-btw{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-#navbarSupportedContent-4{
-    /* background: red; */
-    display: flex;
-    justify-content: space-between;
-flex-direction: row;}
-
-
-
-
-.dashboard-container{
-    padding: 0;
-    margin: 0;
-   
-}
 #page-header {
     padding: 0;
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
     /* background: blue; */
     width: 100%;
-
 }
+
+#page-header>.header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    /* background: red; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    /* background: red; */
+}
+
+.topbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem 1rem 1rem 1.5rem;
+    /* background: red; */
+}
+
+.title-side-menu-toggl {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background: red; */
+}
+
+.user-account {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+    /* background: red; */
+}
+
+.user-account-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background: green;
+    color: white;
+    border: 0px;
+}
+
+.user-account-name {
+    font-size: 16px;
+}
+
+
+
+
+#page-header>.head {
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+
+
+
 
 /* -----------------------------dashboard-NAV CSS -----------------------------*/
 
 /* -----------------------------dashboard-Header CSS -----------------------------*/
 
-.page-heade-header {
-    display: flex;
-    align-items: center;
-   width: 100%;
-    background: blue;
-}
 
-#pageTitle {
-    display: flex;
-    /* color: red; */
-    /* background: green; */
-}
 
 
 #breadcrumbContainer {
     display: flex;
+    flex-direction: column;
     align-items: flex-end;
     font-family: 'Roboto';
     font-style: normal;
+    margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #31394D;
     /* background: red; */
 }
-#breadcrumbRight{display: flex; background: green;} 
+
+#breadcrumbRight {
+    display: flex;
+    align-items: center;
+    /* background: green; */
+    margin-top: 10px;
+    gap: 6rem;
+}
+
 
 .userFirstName {
     height: 17px;
@@ -95,10 +139,7 @@ flex-direction: row;}
 
 }
 
-#breadcrumbRight {
-    margin-top: 25px;
-    gap: 8rem;
-}
+
 
 /* -----------------------------dashboard-sidbar -----------------------------*/
 #side-bar {
@@ -112,10 +153,10 @@ flex-direction: row;}
     color: white;
     gap: 5rem;
 }
+/* .side-app{   background: red; */
+    /* width: 2opx; */
 
-
-
-.main-sidemenu{
+.main-sidemenu {
     display: flex;
     flex-direction: column;
     color: white;
@@ -124,24 +165,33 @@ flex-direction: row;}
     gap: 5rem;
 }
 
-
+.side-bar-icons{
+font-size: 18px;
+}
+#header-icons{
+color: rgb(112, 231, 14);
+font-size: 38px;
+/* background: red; */
+width: 20pz;
+}
+.fitersate{color:white;}
+.slide >a{
+    gap: 2rem;
+}
 /* -----------------------------dashboard-sidebar -----------------------------*/
 
 
-.dashboard-contents{
-    display: flex;
+/* Row 1 */
+#row1 {
     position: relative;
     top: 8.5rem;
     width: 100%;
-    /* background: red; */
-}
-/* Row 1 */
-#row1{
     min-width: 100%;
     display: flex;
     justify-content: space-between;
     /* background: red; */
 }
+
 .col {
     font-family: 'Roboto';
     font-style: normal;
@@ -163,10 +213,11 @@ flex-direction: row;}
 /* Row 1 End */
 
 /* Row 2 */
-#row2{
+#row2 {
     position: relative;
     top: 8.5rem;
 }
+
 #row2-card-header {
     flex-direction: column;
     justify-content: space-between;
@@ -377,18 +428,77 @@ option {
 }
 
 /* Row 3 End */
+
+/* footer */
 #footer {
     margin-top: 20px;
 }
-#page-title{
+
+/* footer*/
+
+#page-title {
     display: flex;
     justify-content: space-between;
     background: gray;
 }
+@media screen and (max-width:700px) {
+    #page-header>.header-nav {
+        display: flex;
+    }
 
-@media screen and (min-width:700px){
-#navbar-responsive{
-    display: none;
-    background: red;
+    #page-header>.head {
+        display: none;
+    }
+
+    #row1,
+    #row2,
+    #row3 {
+        top: 11.3rem;
+    }
+
+    #side-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #side-menu>.list {
+        margin-top: 5rem;
+    }
+
+    #row3 {
+        display: flex;
+    }
+
+    .footer {
+        height: fit-content;
+    }
+
+    #row3-col1-row1,
+    #row3-col2 {
+        flex-direction: column;
+        align-items: center;
+        min-width: 200px;
+        justify-content: space-between;
+    }
 }
+
+@media screen and (min-width:700px) {
+    #page-header>.header-nav {
+        display: none;
+    }
+
+    #page-header>.head {
+        display: flex;
+    }
+    #side-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #side-menu>.list {
+        margin-top: 5rem;
+        color: white;
+    }
 }

@@ -6,7 +6,7 @@ const Row3 = () => {
         <div className="card overflow-hidden" >
           <div className="card-body">
             <div className="row">
-              <div className="col" id="row3-col1-col-row1">
+              <div className="col" id="row3-col1-row1">
                 <h3 className="mb-2 fw-semibold">INTERMEDIATE</h3>
                 <p className="text-muted fs-13 mb-0">for&nbsp; 
                  <select>
@@ -25,7 +25,7 @@ const Row3 = () => {
       <div className="card overflow-hidden" >
           <div className="card-body">
             <div className="row">
-              <div className="col" id="row3-col1-col-row1">
+              <div className="col" id="row3-col2">
                 <h3 className="mb-2 fw-semibold">INTERMEDIATE</h3>
                 <p className="text-muted fs-13 mb-0">for&nbsp; 
                  <select>
