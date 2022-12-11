@@ -1,49 +1,83 @@
+/* -----------------------------dashboard-NAV CSS -----------------------------*/
 body{
-   
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* background: red; */
 }
-.dashboardNav {
+.flex-row{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    margin-top: 2px;
-    background: white;
-    height: 72px;
+    justify-content: start;
     width: 100%;
 }
-#pageHeader {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    /* background: blue; */
-    max-width: 100%;
-    height: 100px;
-    align-items: baseline;
-    margin-bottom: 40px;
-    /* padding-top: 40px; */
+.app-sidebar__toggle{
+    margin: 10px 0 0 30px;
 }
-#pageTitle {
-    display: flex;
-    margin-top: 40px;
-    /* align-items: center; */
-    justify-content: space-between;
 
-    /* background: green; */
+.flex-row-sp-btw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
-#breadcrumbContainer {
+#navbarSupportedContent-4{
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;}
+
+
+
+
+.dashboard-container{
+    padding: 0;
+    margin: 0;
+   
+}
+#page-header {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
-    margin-left: 25%;
+    align-items: center;
+    justify-content: space-between;
+    /* background: blue; */
+    width: 100%;
+
+}
+
+/* -----------------------------dashboard-NAV CSS -----------------------------*/
+
+/* -----------------------------dashboard-Header CSS -----------------------------*/
+
+.page-heade-header {
+    display: flex;
+    align-items: center;
+   width: 100%;
+    background: blue;
+}
+
+#pageTitle {
+    display: flex;
+    /* color: red; */
+    /* background: green; */
+}
+
+
+#breadcrumbContainer {
+    display: flex;
     align-items: flex-end;
-    /* justify-content:end; */
-    height: 5rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #31394D;
+    /* background: red; */
 }
+#breadcrumbRight{display: flex; background: green;} 
+
 .userFirstName {
     height: 17px;
     font-family: 'Roboto';
@@ -54,28 +88,60 @@ body{
     color: #748AA1;
 
 }
+
 .welcomeMsg {
     font-size: 25px;
     line-height: 23px;
 
 }
+
 #breadcrumbRight {
     margin-top: 25px;
     gap: 8rem;
 }
+
 /* -----------------------------dashboard-sidbar -----------------------------*/
-#side-bar{
+#side-bar {
     background: #1B3A1B;
     height: 100%;
+    width: 100%;
 }
-.side-menu>li>h3, .side-menu__label{
+
+.side-menu>li>h3,
+.side-menu__label {
     color: white;
+    gap: 5rem;
 }
+
+
+
+.main-sidemenu{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: #1B3A1B;
+    height: 100%;
+    gap: 5rem;
+}
+
 
 /* -----------------------------dashboard-sidebar -----------------------------*/
 
 
-        /* Row 1 */
+.dashboard-contents{
+    display: flex;
+    position: relative;
+    top: 8.5rem;
+    width: 100%;
+    /* background: red; */
+}
+/* Row 1 */
+#row1{
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+}
 .col {
     font-family: 'Roboto';
     font-style: normal;
@@ -84,6 +150,7 @@ body{
     line-height: 23px;
     color: #31394D;
 }
+
 #row1-col1,
 #row1-col2,
 #row1-col3,
@@ -92,9 +159,14 @@ body{
     box-shadow: 0px 1px 1px #E5E9F2;
     border-radius: 5px;
 }
+
 /* Row 1 End */
 
 /* Row 2 */
+#row2{
+    position: relative;
+    top: 8.5rem;
+}
 #row2-card-header {
     flex-direction: column;
     justify-content: space-between;
@@ -177,11 +249,13 @@ body{
     margin: 0;
     padding: 0;
 }
+
 .margin-line {
     height: 100%;
     width: 1px;
     background: #EBEDF4;
 }
+
 .record-percent-margins {
     position: absolute;
     top: 0;
@@ -193,13 +267,15 @@ body{
     width: 100%;
     height: 12.9rem;
 }
+
 .record-summary {
     position: relative;
-    background: green;
+    /* background: green; */
     width: 100%;
     height: 184px;
     margin-top: 1px;
 }
+
 .summary-lsit {
     display: flex;
     flex-direction: column;
@@ -211,7 +287,8 @@ body{
     height: 184px;
     padding: 20px 0 1px 0;
 }
-.item{
+
+.item {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -219,47 +296,58 @@ body{
     height: 2rem;
     /* background: red; */
 }
-.item-icon{
+
+.item-icon {
     height: 20px;
     width: 20px;
     box-sizing: border-box;
     background: #FFFFFF;
     border: 4px solid #4072EE;
-border-radius: 10px;
+    border-radius: 10px;
 }
+
 .item-percent {
     font-size: 16px;
 }
+
 #item1>.item>.item-icon {
     border: 4px solid #4072EE;
 }
+
 #item2>.item>.item-icon {
     border: 4px solid #B558F6;
 }
+
 #item3>.item>.item-icon {
     border: 4px solid #FEC400;
 }
+
 #item4>.item>.item-icon {
     border: 4px solid #29CB97;
 }
-    /* Active Users */
 
-    /* Active Users */
+/* Active Users */
+
+/* Active Users */
 
 /* Row 2 End */
 
 /* Row 3 */
 #row3 {
+    position: relative;
+    top: 8.5rem;
     display: flex;
     justify-content: space-between;
     padding: 42px 90px 25px 90px;
     background: white;
 }
+
 #row3-col1,
 #row3-col2 {
     min-height: 150.32px;
     min-width: 45%;
 }
+
 #row3-col1-col-row1,
 #row3-col1-col-row1 {
     display: flex;
@@ -270,6 +358,7 @@ border-radius: 10px;
     min-height: 150px;
     padding: 0 20% 0 10%
 }
+
 #row3-col1-col-row1>p {
     font-family: 'Roboto';
     font-style: normal;
@@ -278,13 +367,28 @@ border-radius: 10px;
     line-height: 18px;
     color: #31394D;
 }
+
 select {
     border: none;
 }
+
 option {
     border: none;
 }
+
 /* Row 3 End */
 #footer {
     margin-top: 20px;
+}
+#page-title{
+    display: flex;
+    justify-content: space-between;
+    background: gray;
+}
+
+@media screen and (min-width:700px){
+#navbar-responsive{
+    display: none;
+    background: red;
+}
 }

@@ -1,6 +1,7 @@
 const Row1 = () => {
   return (
-    <div className="row">
+    <div className="dashboard-contents">
+          <div className="row" id="row1">
       <div className="col-lg-6 col-sm-12 col-md-6 col-xl-3">
         <div className="card overflow-hidden" id='row1-col1'>
           <div className="card-body" >
@@ -51,6 +52,8 @@ const Row1 = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 }
 export default Row1;
