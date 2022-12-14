@@ -8,11 +8,14 @@ const DashboardSideBar1 =()=>{
 <div className="sticky">
   <div className="app-sidebar__overlay" data-bs-toggle="sidebar" />
   <div className="app-sidebar">
-    <div className="side-header">
-      <a className="header-brand1" href="index.html">
-        <img src={headerLogo} className='logo-div' alt="logo" />
-      </a>LOGO
-    </div>
+  <div className="side-header" style={'background:black'}>
+                    <a className="header-brand1" href="index.html">
+                      <img src="../assets/images/brand/logo.png" className="header-brand-img desktop-logo" alt="logo" />
+                      <img src="../assets/images/brand/logo-1.png" className="header-brand-img toggle-logo" alt="logo" />
+                      <img src="../assets/images/brand/logo-2.png" className="header-brand-img light-logo" alt="logo" />
+                      <img src="../assets/images/brand/logo-3.png" className="header-brand-img light-logo1" alt="logo" />
+                    </a> LOGO 
+                  </div>
     <div className="main-sidemenu">
       <div className="slide-left disabled" id="slide-left"><svg xmlns="http://www.w3.org/2000/svg" fill="#7b8191" width={24} height={24} viewBox="0 0 24 24">
           <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z" />
