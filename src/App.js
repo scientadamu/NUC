@@ -2,7 +2,10 @@ import LoginPage from './pages/login'
 import OtpPage from './pages/otp'
 import ForgetPassword from './pages/forgotPassword'
 import Dashboard from './pages/dashboard'
-import InvalidPage from './pages/invalidPage'
+
+import StdLogin from './spesse/pages/StdLogin'
+import StdOtp from './spesse/pages/StdOtp'
+ import InvalidPage from './pages/invalidPage'
 
 import './App.css';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -15,22 +18,33 @@ function App() {
           <Route exact path="/" >
             <LoginPage />
           </Route>
-          
-          <Route path="/otp" >
-            <OtpPage />
-          </Route>
-
+        
           <Route path="/passRest" >
             <ForgetPassword />
           </Route>
+          
+          <Route path="/login" >
+            <LoginPage />
+          </Route>
+        <Route path="/otp" >
+            <OtpPage />
+          </Route>
 
-          <Route path="/dashboard" >
+          <Route path="/StdLogin" >
+           <StdLogin />
+         </Route>
+         <Route path="/StdOtp" >
+           <StdOtp />
+         </Route>
+    
+           <Route path="/dashboard" >
             <Dashboard />
           </Route>
 
+
           <Route path="#" >
             <InvalidPage />
-          </Route>
+          </Route> 
 
           </Switch>
         </div>

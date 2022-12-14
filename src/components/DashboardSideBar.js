@@ -10,7 +10,7 @@ const DashboardSideBar1 =()=>{
   <div className="app-sidebar">
     <div className="side-header">
       <a className="header-brand1" href="index.html">
-        <img src={headerLogo} alt="logo" />
+        <img src={headerLogo} className='logo-div' alt="logo" />
       </a>LOGO
     </div>
     <div className="main-sidemenu">
